@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python / uv
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# reference material not meant for the public repo
+files/
+
+# tooling
+.railway/
+*.log
+.DS_Store
+.idea/
+.vscode/

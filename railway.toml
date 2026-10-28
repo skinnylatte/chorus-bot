@@ -1,0 +1,8 @@
+# Railway reads this at deploy time. The bot is a background worker with no HTTP
+# port, so there is no healthcheck and no public domain.
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+restartPolicyType = "ALWAYS"
+numReplicas = 1
